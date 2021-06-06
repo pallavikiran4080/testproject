@@ -12,7 +12,7 @@ public static WebDriver driver;
 	@BeforeTest
 	public void open() {
 	
-	
+	//kiran
 	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\driver\\chromedriver.exe");
 	
     driver = new ChromeDriver();
